@@ -1,0 +1,54 @@
+.banner {
+  margin-top: -10vh;
+  height: 80vh;
+  color: white;
+}
+
+.banner_contents {
+  margin-left: 30px;
+  padding-top: 300px;
+  /* Optional: use height if needed */
+  /* height: 190px; */
+}
+
+.banner_title {
+  font-size: 3rem;
+  font-weight: 800;
+  padding-bottom: 0.3rem;
+}
+.banner_button {
+    cursor: pointer;
+    color: black;
+    outline: none;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border-radius: 0.2vw;
+    padding: 1rem 3rem;
+    margin-right: 2rem;
+   
+  }
+  
+
+.banner_description {
+  font-size: 1rem;
+  line-height: 1;
+  padding: 1rem 0;
+}
+
+.banner_button:hover {
+    color: #000;
+    background-color: #c6c6c6;
+    transition: all 0.25s;
+  }
+  
+  .banner_fade_bottom {
+    height: 40vh;
+    background-image: linear-gradient(
+      180deg,
+      transparent,
+      rgba(37, 37, 37, 0.91),
+      #111
+    );
+  }
+  
