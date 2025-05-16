@@ -2,53 +2,71 @@
   margin-top: -10vh;
   height: 80vh;
   color: white;
+  
+  background-size: cover;
+  background-position: center center;
+  object-fit: contain;
 }
 
 .banner_contents {
-  margin-left: 30px;
-  padding-top: 300px;
-  /* Optional: use height if needed */
-  /* height: 190px; */
+  position: absolute;
+  top: 30%;
+  left: 30px;
+  z-index: 1;
 }
 
 .banner_title {
   font-size: 3rem;
   font-weight: 800;
-  padding-bottom: 0.3rem;
+  padding-bottom: 0.5rem;
 }
-.banner_button {
-    cursor: pointer;
-    color: black;
-    outline: none;
-    border: none;
-    font-size: 1.2rem;
-    font-weight: 700;
-    border-radius: 0.2vw;
-    padding: 1rem 3rem;
-    margin-right: 2rem;
-   
-  }
-  
 
-.banner_description {
+/* Banner buttons */
+.banner_buttons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.banner_button {
+  cursor: pointer;
+  color: black;
+  background-color: #fff;
+  outline: none;
+  border: none;
   font-size: 1rem;
-  line-height: 1;
-  padding: 1rem 0;
+  font-weight: 700;
+  border-radius: 0.2vw;
+  padding: 0.5rem 2rem;
+  transition: all 0.3s ease;
 }
 
 .banner_button:hover {
-    color: #000;
-    background-color: #c6c6c6;
-    transition: all 0.25s;
-  }
-  
-  .banner_fade_bottom {
-    height: 40vh;
-    background-image: linear-gradient(
-      180deg,
-      transparent,
-      rgba(37, 37, 37, 0.91),
-      #111
-    );
-  }
-  
+  background-color: #e6e6e6;
+  color: black;
+}
+
+/* Description text */
+.banner_description {
+  width: 45rem;
+  max-width: 360px;
+  font-size: 1rem;
+  line-height: 1.3;
+  padding-top: 1rem;
+  color: #eee;
+  text-align: justify;
+}
+
+/* Gradient fade at bottom of banner */
+.banner_fade_bottom {
+  position: absolute;
+  bottom: 0;
+  height: 7.4rem;
+  width: 100%;
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgba(37, 37, 37, 0.61),
+    #111
+  );
+}
