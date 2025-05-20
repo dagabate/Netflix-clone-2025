@@ -33,3 +33,23 @@
   margin-left: 20px;
   color: white;
 }
+
+.row_poster_container {
+  width: 150px;
+  margin-right: 10px;
+  flex-shrink: 0;
+  text-align: center;
+}
+
+.row_poster_title {
+  color: white;
+  font-size: 13px;
+  margin-top: 5px;
+  line-height: 1.2;
+  height: 2.4em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+
+  -webkit-box-orient: vertical;
+}
