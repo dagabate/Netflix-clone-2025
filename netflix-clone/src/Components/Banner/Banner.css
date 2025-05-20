@@ -2,7 +2,7 @@
   margin-top: -10vh;
   height: 80vh;
   color: white;
-  
+
   background-size: cover;
   background-position: center center;
   object-fit: contain;
@@ -59,10 +59,8 @@
 
 /* Gradient fade at bottom of banner */
 .banner_fade_bottom {
-  position: absolute;
-  bottom: 0;
-  height: 7.4rem;
-  width: 100%;
+  height: 40vh;
+
   background-image: linear-gradient(
     180deg,
     transparent,
