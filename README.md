@@ -11,8 +11,10 @@ This is a responsive Netflix clone built using React.js, mimicking the design an
 1 . 📁 Clone the repo:
 - git clone https://github.com/your-username/netflix-clone.git
 cd netflix-clone
+
 2 . 📦 Install Dependencies
 npm install (Refer list of dependencies in the package-json)
+
 3. ⚙️ Configure Environment Variables
 ✅ In the root directory, create a .env file and add the following:
 VITE_API_KEY = your_api_key
